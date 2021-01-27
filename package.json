@@ -1,0 +1,29 @@
+{
+  "name": "custom-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "node esbuild.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgonp/custom-hooks.git"
+  },
+  "author": "",
+  "license": "See LICENSE file",
+  "bugs": {
+    "url": "https://github.com/bgonp/custom-hooks/issues"
+  },
+  "homepage": "https://github.com/bgonp/custom-hooks#readme",
+  "dependencies": {
+    "react": "~17.0.1",
+    "react-dom": "~17.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "~17.0.0",
+    "@types/react-dom": "~17.0.0",
+    "esbuild": "~0.8.36"
+  }
+}
