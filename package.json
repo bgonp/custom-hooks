@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "description": "",
   "main": "./build/index.js",
-  "types": "./build/index.d.ts",
+  "types": "./build/src/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
-    "build": "node esbuild.js && tsc src/index.ts --declaration --emitDeclarationOnly --resolveJsonModule --outFile build/index.d.ts --lib es2015,dom"
+    "build": "node esbuild.js && tsc src/index.ts --outDir build --declaration --emitDeclarationOnly --lib es2015,dom --resolveJsonModule"
   },
   "repository": {
     "type": "git",
