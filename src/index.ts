@@ -1,7 +1,8 @@
 import { useLocalStorage } from "./useLocalStorage";
+import { name } from '../package.json'
 
 if (typeof window === "undefined") {
-  throw new Error("bgon/custom-hooks package can only be executed on browser");
+  throw new Error(`${name} package can only be used on browser`);
 }
 
 export default {

@@ -1,6 +1,7 @@
 require("esbuild")
   .build({
     entryPoints: ["src/index.ts"],
+    format: "esm",
     bundle: true,
     minify: true,
     outfile: "build/index.js",
