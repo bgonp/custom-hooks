@@ -3,10 +3,9 @@
     "target": "es5",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "./lib",
+    "outDir": "./dist",
     "strict": true,
-    "lib": ["ES6", "DOM"],
-    "resolveJsonModule": true
+    "lib": ["ES6", "DOM"]
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/__tests__/*"]
