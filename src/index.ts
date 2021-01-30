@@ -3,3 +3,4 @@ if (typeof window === "undefined") {
 }
 
 export { useLocalStorage } from "./useLocalStorage";
+export { useTimeout } from "./useTimeout";
