@@ -1,11 +1,11 @@
 import { useCallback, useEffect, useState } from 'react'
 
-type useLocalStorageType<T> = [T, (value: T | ((state: T) => T)) => void, () => void]
+import { UseLocalStorageType } from 'types'
 
 export const useLocalStorage = <T>(
   key: string,
   initialValue: T
-): useLocalStorageType<T> => {
+): UseLocalStorageType<T> => {
   const [value, setValue] = useState<T>(
     (): T => {
       try {
