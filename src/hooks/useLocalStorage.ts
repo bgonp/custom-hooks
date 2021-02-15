@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 
-import { UseLocalStorageType } from 'types'
+import { UseLocalStorageType } from '../types'
 
 export const useLocalStorage = <T>(
   key: string,

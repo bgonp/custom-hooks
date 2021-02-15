@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 
-import { UseTimeoutType } from 'types'
+import { UseTimeoutType } from '../types'
 
 export const useTimeout = (): UseTimeoutType => {
   const [timeout, setTimeoutValue] = useState<number | null>(null)

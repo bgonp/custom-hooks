@@ -1,4 +1,7 @@
 .env
+.eslintignore
+.eslintrc
+.prettier
 .vscode/
 src/
 tsconfig.json

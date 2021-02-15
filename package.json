@@ -1,6 +1,6 @@
 {
   "name": "bgon-custom-hooks",
-  "version": "0.4.0",
+  "version": "0.5.1",
   "description": "React tools",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -1,6 +1,6 @@
 import { MouseEvent, useCallback, useState } from 'react'
 
-import { UseClickControlType } from 'types'
+import { UseClickControlType } from '../types'
 
 export const useClickControl = (): UseClickControlType => {
   const [isLeftClicked, setLeftClicked] = useState<boolean>(false)

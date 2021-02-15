@@ -1,7 +1,7 @@
 import { createContext, FC } from 'react'
 
-import { useClickControl } from 'hooks/useClickControl'
-import { ClickControlContextType } from 'types'
+import { useClickControl } from '../hooks/useClickControl'
+import { ClickControlContextType } from '../types'
 
 export const ClickControlContext = createContext<ClickControlContextType>({
   isLeftClicked: false,
